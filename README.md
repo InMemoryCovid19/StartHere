@@ -12,14 +12,14 @@ $('#gform').on('submit', function(e) {
 </script>
 
 <form enctype="text/plain" action="https://localhost:8080/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-  secure
+  non-duplicate names
   Name of deceased:<br>
   <input type="text" name="entry.1585793066" id="entry.1585793066"><br>
   Birth Date<br>
   <input type="text" name="entry.1084044168" id="entry.1084044168">
   Death Date<br>
-  <input type="date" name="entry.1625740530" id="entry.1625740530">
-  File <input type="file" name="entry.1625740530" id="entry.1625740530">
+  <input type="date" name="date" id="dateID">
+  File <input type="file" name="entryFile" id="entry.file">
   <input type="submit" value="Submit">
 </form>
 
