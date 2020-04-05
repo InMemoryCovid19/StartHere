@@ -11,8 +11,8 @@ $('#gform').on('submit', function(e) {
   });
 </script>
 
-<form enctype="multipart/form-data" method="post" action="https://localhost:8080/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-  method="post"
+<form enctype="multipart/form-data" method="post" action="https://localhost:3000/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+  smee port
   Name of deceased:<br>
   <input type="text" name="entry.1585793066" id="entry.1585793066"><br>
   Birth Date<br>
