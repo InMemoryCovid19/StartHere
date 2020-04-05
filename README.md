@@ -11,7 +11,7 @@ $('#gform').on('submit', function(e) {
   });
 </script>
 
-<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSch9q-eEatWSahfMaU7a9QCdZDY8wm_3DGaSZxdgjdUwk4e7Q/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+<form enctype="text/plain" action="https://localhost:8080/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
   Name of deceased:<br>
   <input type="text" name="entry.1585793066" id="entry.1585793066"><br>
   Birth Date<br>
