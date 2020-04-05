@@ -17,7 +17,8 @@ $('#gform').on('submit', function(e) {
   Birth Date<br>
   <input type="text" name="entry.1084044168" id="entry.1084044168">
   Death Date<br>
-  <input type="text" name="entry.1625740530" id="entry.1625740530">
+  <input type="date" name="entry.1625740530" id="entry.1625740530">
+  File <input type="file" name="entry.1625740530" id="entry.1625740530">
   <input type="submit" value="Submit">
 </form>
 
