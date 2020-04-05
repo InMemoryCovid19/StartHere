@@ -1,11 +1,23 @@
-<form>
-  First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
-  <input type="text" name="lastname">
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
+</script>
+
+<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSch9q-eEatWSahfMaU7a9QCdZDY8wm_3DGaSZxdgjdUwk4e7Q/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+  Name of deceased:<br>
+  <input type="text" name="entry.1585793066" id="entry.1585793066"><br>
+  Birth Date<br>
+  <input type="text" name="entry.1084044168" id="entry.1084044168">
+  Death Date<br>
+  <input type="text" name="entry.1625740530" id="entry.1625740530">
   <input type="submit" value="Submit">
 </form>
 
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/TributeFromCovid-19/StartHere/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
