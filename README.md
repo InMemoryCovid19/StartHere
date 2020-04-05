@@ -11,7 +11,8 @@ $('#gform').on('submit', function(e) {
   });
 </script>
 
-<form enctype="text/plain" action="https://localhost:8080/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+<form enctype="text/plain" action="http://localhost:8080/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+  insecure
   Name of deceased:<br>
   <input type="text" name="entry.1585793066" id="entry.1585793066"><br>
   Birth Date<br>
