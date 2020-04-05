@@ -1,3 +1,11 @@
+<form>
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname">
+  <input type="submit" value="Submit">
+</form>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/TributeFromCovid-19/StartHere/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
